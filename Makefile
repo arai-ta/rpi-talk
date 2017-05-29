@@ -19,6 +19,9 @@ sound-out-set:
 sound-config-save:
 	sudo alsactl store
 
+sound-test:
+	aplay /usr/share/sounds/alsa/*
+
 volume-control:
 	alsamixer
 
