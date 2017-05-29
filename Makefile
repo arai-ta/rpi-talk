@@ -32,3 +32,9 @@ jtalk-install:
 		open-jtalk-mecab-naist-jdic \
 		hts-voice-nitech-jp-atr503-m001
 
+aquestalkpi/AquesTalkPi:
+	# http://www.a-quest.com/products/aquestalkpi.html
+
+at-install:
+	sudo apt install at
+
